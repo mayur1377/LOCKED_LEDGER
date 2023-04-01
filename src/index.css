@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url(/src/LEDGER\ LOCK\ \(1\).png); */
+html {
+  background: url(https://ipfs.io/ipfs/bafkreif6fh4tqwnwyc3osrb4lof2hu2olef5ttj2j76a6zrxfco3bptqya) no-repeat center center fixed;;
+  background-size: cover;
+  /* overflow-x: hidden; */
+  z-index:1;
+
+  min-height: 100vh;
+}
+
+@media (max-width: 500px) {
+  html {
+    background: url(https://ipfs.io/ipfs/bafkreibbd6xn2bcqttor3jbzek6dqjanvmf2n73phdkd3s4vh24ggponwq) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+
+body {
+  /* overflow-y: auto;  */
+  z-index:1;
+  min-height: 100vh;
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blur-overlay {
+  position: fixed;
+  top:0;
+  padding-top: 200px;
+  left: 0;
+  padding-left: 45%;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* filter: blur(5px); */
+  z-index: 999;
+}
+
+.blur-overlay > * {
+  filter: none;
+}
+
+#temp
+{
+  border-radius: 30px;
+  /* color:red;
+   */
+   height:50px;
+   
+
+}
+
