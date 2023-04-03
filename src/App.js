@@ -2,13 +2,14 @@ import { useState, useEffect } from "react";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Web3Storage } from 'web3.storage';
 import { ProgressBar } from  'react-loader-spinner'
-import myBackgroundImage from './LEDGER LOCK (1).png';
+// import myBackgroundImage from './LEDGER LOCK (1).png';
 import {
-  Alert,
-  AlertIcon,
-  AlertTitle,
-  AlertDescription,
-} from '@chakra-ui/react'
+	Alert,
+	AlertIcon,
+	AlertTitle,
+	AlertDescription,
+  } from '@chakra-ui/react'
+
 // import { useRainbow } from '@rainbow-me/rainbowkit';
 import { useAccount, useContract, useSigner } from "wagmi";
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from './contract'
@@ -356,9 +357,6 @@ function App()
 													>
 														hash/view/get
 													</th>
-													{/* <th>
-														{/* DELETE */}
-													{/* </th> */} */}
 												</tr>
 											</thead>
 											{files?.length > 0 && files.slice().reverse().map((file, key) => (

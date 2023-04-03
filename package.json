@@ -1,8 +1,10 @@
 {
+  "homepage": "<https://mayur1377.github.io/locked_ledger>",
   "name": "filestorage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@rainbow-me/rainbowkit": "^0.8.0",
@@ -11,7 +13,8 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "ethers": "^5.7.2",
-    "framer-motion": "^10.9.1",
+    "framer-motion": "^10.10.0",
+    "gh-pages": "^5.0.0",
     "rainbowkit": "^0.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
@@ -19,6 +22,7 @@
     "react-focus-lock": "^2.9.4",
     "react-loader-spinner": "^5.3.4",
     "react-scripts": "5.0.1",
+    "vercel": "^28.18.3",
     "wagmi": "^0.8.10",
     "web-vitals": "^2.1.4",
     "web3": "^1.9.0",
@@ -28,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
