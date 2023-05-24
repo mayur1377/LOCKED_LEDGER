@@ -15,11 +15,11 @@ TO DO :
  
 [x] Design
  
-[ ] Front-end
+[x] Front-end
  
-[ ] Testing
+[x] Testing
  
-[ ] Hosting
+[ ] Hosting  : errors in hosting in verecel
  
  
  I'm yet to complete the readme , imma do it as soon as the project completes , please let me live
@@ -29,9 +29,13 @@ TO DO :
  
  
  
+ ## DEMO
  
  
- 
+
+![alt text](https://s12.gifyu.com/images/Untitled-design-1b8383d30773644fd.gif)
+
+ ![alt text](https://i.ibb.co/M8bXdcN/image.png)
  
  
  
@@ -44,6 +48,7 @@ TO DO :
 
 
 
+below is basic react template to start the project
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -114,4 +119,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# d-drive
